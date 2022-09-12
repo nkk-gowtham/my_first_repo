@@ -1,0 +1,21 @@
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+#formC{
+    margin-left: 40%;
+    margin-right: 40%;
+    display:block;
+    border: solid grey;
+    padding: 15px;
+    border-radius: 10px;
+}
+#cal{
+    width: 96%;
+}
+.btns{
+    width: 30%;
+}
+.btnseq{
+    width: 96%;
+}

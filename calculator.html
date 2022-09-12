@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <script type="text/javascript" src="calculator.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="calculator.css"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <h2>Calculator</h2><br>
+        <form name="formC" id="formC">
+
+    <input type="text" name="screen" id="cal" ><br><br>
+    <input class="btns" type="button" name="1" value="1" onclick="formC.screen.value+='1'">
+    <input class="btns" type="button" name="2" value="2" onclick="formC.screen.value+='2'">
+    <input class="btns" type="button" name="3" value="3" onclick="formC.screen.value+='3'"><br><br>
+    <input class="btns" type="button" name="4" value="4" onclick="formC.screen.value+='4'">
+    <input class="btns" type="button" name="5" value="5" onclick="formC.screen.value+='5'">
+    <input class="btns" type="button" name="6" value="6" onclick="formC.screen.value+='6'"><br><br>
+    <input class="btns" type="button" name="7" value="7" onclick="formC.screen.value+='7'">
+    <input class="btns" type="button" name="8" value="8" onclick="formC.screen.value+='8'">
+    <input class="btns" type="button" name="9" value="9" onclick="formC.screen.value+='9'"><br><br>
+    <input class="btns" type="button" name="0" value="0" onclick="formC.screen.value+=0">
+    <input class="btns" type="button" name="+" value="+" onclick="formC.screen.value+='+'">
+    <input class="btns" type="button" name="-" value="-" onclick="formC.screen.value+='-'"><br><br>
+    <input class="btns" type="button" name="*" value="*" onclick="formC.screen.value+='*'">
+    <input class="btns" type="button" name="/" value="/" onclick="formC.screen.value+='/'">
+    <input class="btns" type="button" name="C" value="C" onclick="formC.screen.value=''"><br><br>
+    <input class="btnseq" type="button" name="=" value="=" onclick="formC.screen.value=eval(formC.screen.value)">
+
+        </form>
+    </div>
+    <form action="intellisense.php">
+    </form>
+      </body>
+</html>
