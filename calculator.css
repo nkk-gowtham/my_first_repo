@@ -1,22 +1,23 @@
-h2{
+h3{
     text-align: center;
     margin-top: 15px;
 }
 #formCalc{
     margin-left: 40%;
-    margin-right: 40%;
+    margin-right: 42%;
     display:block;
-    border: solid grey;
+    border: solid rgb(0, 0, 0);
     padding: 15px;
     border-radius: 10px;
 }
 #cal{
     width: 96%;
     border-radius: 5px;
+    padding: 5px;
 }
 .btns{
     width: 30%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .btnseq{
     width: 96%;
